@@ -1,0 +1,255 @@
+body{
+          font-family: 'Roboto', sans-serif;
+          margin: 0%;
+          padding: 0%;
+          background-color: black;
+}
+nav{
+          display: flex;
+          justify-content:space-between;
+          background-color: black;
+          color: red;
+          padding: 20px;
+          position: fixed;
+          top: 0%;
+          width: 100%;
+          
+
+}
+nav ul a{
+          text-decoration: none;
+          color: rgb(189, 177, 177);
+          margin-inline: 30px;
+}
+nav ul a:hover{
+     background-color: rgb(240, 5, 5);
+     
+}
+nav button{
+     padding: 8px;
+     margin-right: 30px;
+     color: rgb(237, 235, 235);
+     background-color: red;
+     border-radius: 5px;
+}
+
+
+ .maintext button{
+          
+          height: 50px;
+          width: 200px;
+          background-color: red;
+          font-size: 18px;
+          border-radius: 5px;
+          border: none;
+          color: aliceblue;
+          padding: 10px;
+
+}
+.logo{
+          margin-left: left;
+}
+.logo h1{
+          position: absolute;
+          top: 3px;
+          font-size: 33px;
+          font-style: italic;
+          border-bottom: 3px solid red;
+          border-bottom-right-radius: 25px;
+          border-radius: 10px;
+}
+.main{
+          display: flex;
+          justify-content: space-around;
+          margin-top: 150px;
+}
+.maintext h1{
+          font-size: 60px;
+          color: rgb(241, 238, 238);
+
+}
+.maintext h2{
+          font-size: 40px;
+          color: rgb(41, 41, 228);
+}
+.main img{
+          width: 45%;
+          border-radius: 10px;
+}
+button:hover{
+          border: 5px solid red;
+          background-color: transparent;
+          cursor: pointer;
+}
+.head h1{
+          color: rgb(238, 228, 228);
+          text-align: center;
+          margin-top: 50px;
+}
+.head span{
+          color: rgb(22, 22, 204);
+}
+.card{
+          display: flex;
+          justify-content: center;
+          margin-top: 50px;
+          
+          
+}
+.card .crd{
+          width: 350px;
+          margin-inline: 50px;
+          background-color: #ffff;
+          color: black;
+          
+}
+.crd img{
+          width: 100%;
+}
+.card .foodtext{
+          color: rgb(24, 23, 23);
+}
+.foodtext button{
+          height: 50px;
+          width: 200px;
+          background-color: red;
+          font-size: 18px;
+          border-radius: 5px;
+          border: none;
+          color: white;
+          padding: 10px;
+          cursor: pointer;
+                    
+}
+.foodtext button:hover{
+     border: 5px solid red;
+     background-color: transparent ;
+     cursor: pointer;
+     color: rgb(23, 23, 23);
+}
+.crd:hover{
+     color: white;
+     background-color: rgb(132, 128, 128);
+}
+
+.crd .foodtext{
+          padding: 22px;
+}
+.best{
+         display: flex;
+         width: 800p;
+         background-color: #ffff;
+         color: black;
+         margin-top: 33px;
+         background-color: black;
+}
+.best img{
+          width: 50%;
+          padding: 10px;
+          border-radius: 20px;
+          margin-top: 33px;
+          margin-left: 15%;
+         
+
+}
+.besttext{
+          text-align: center;
+}
+.besttext img{
+          border-radius: 50%;
+}
+.besttext a{
+          padding: 50px;
+          width: 200px;
+          background-color: red;
+          font-size: 18px;
+          border-radius: 5px;
+          border: none;
+          color: white;
+          padding: 10px;
+          text-decoration: none;
+}
+.order{
+          display: flex;
+          justify-content: center;
+          margin-inline: 20px;
+}
+.ordertext{
+          font-size: 30px;
+          text-align: center;
+          color: rgb(238, 13, 13);
+}
+.ordertext button{
+          height: 50px;
+          width: 200px;
+          background-color: red;
+          font-size: 18px;
+          border-radius: 5px;
+          border: none;
+          color: white;
+          padding: 10px;
+}
+.order img{
+     width: 50%;
+     }
+     .ordertext img{
+          width: 60%;
+     }
+.founder h1{
+          text-align: center;
+          color: white;
+          margin-top: 50px;
+     }
+.founder img{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 20%;
+     border-radius: 70%;
+}
+.founder h3{
+     color: white;
+     text-align: center;
+     margin-top: 30px;
+}
+.footer{
+     display: flex;
+     justify-content: center;
+     color: black;
+     background-color: silver;
+     padding: 20px;
+     margin-inline: 20px;
+     
+}
+/*log in page */
+.loginpage{
+     display: none;
+     width: 190px;
+     padding: 22px;
+     background-color: white;
+     border-radius: 10px;
+     position: absolute;
+     text-align: center;
+     margin-left: 83%;
+     top: 18%;
+}
+
+.loginpage input{
+     width: 170px;
+     padding: 4px;
+     border: 2px solid rgba(7, 105, 181, 0.993);
+     outline: none;
+     margin-top: 11px;
+    
+}
+.loginpage button{
+     width: 100px;
+     height: 30px;
+     background-color: rgb(52, 102, 183);
+     color: white;
+     font-size: 20px;
+     border: none;
+     cursor: pointer;
+     margin-top: 20px;
+}
+
