@@ -1,0 +1,50 @@
+body{
+          background-color: black;
+}
+/*navigation*/
+      
+  nav{
+        display: flex;
+        justify-content:space-between;
+        background-color: black;
+        color: red;
+        padding: 20px;
+        position: fixed;
+        position: fixed;
+        top: 0%;
+        width: 100%;
+  }
+  .logo h1{
+        position: absolute;
+        top: 3px;
+        left: 330px;
+        font-size: 33px;
+        font-style: italic;
+        border-bottom: 3px solid red;
+        border-bottom-right-radius: 25px;
+        border-radius: 10px;
+         background-color:black;}
+       
+nav ul{
+        float: left;
+        flex-direction: column;
+        padding: 20px 0px;
+        position: absolute;
+        top: 60px;
+        left: 120px;
+        background-color: black;
+        
+        
+        
+}
+
+/*card style*/
+.card{
+          flex-direction: column;
+          margin-left: 60px;
+
+}
+.card .crd{
+        width: 600px;
+}
+        
